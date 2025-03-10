@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>运势预测</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>运势预测</h2>
+        </div>
+        <div class="calculator">
+            <div class="input-group">
+                <label for="birth-date">出生日期:</label>
+                <input type="date" id="birth-date" placeholder="请输入出生日期">
+            </div>
+            <div class="input-group">
+                <label for="birth-time">出生时间:</label>
+                <input type="time" id="birth-time" placeholder="请输入出生时间">
+            </div>
+            <div class="input-group">
+                <label for="zodiac-sign">星座:</label>
+                <select id="zodiac-sign">
+                    <option value="白羊座">白羊座</option>
+                    <option value="金牛座">金牛座</option>
+                    <option value="双子座">双子座</option>
+                    <option value="巨蟹座">巨蟹座</option>
+                    <option value="狮子座">狮子座</option>
+                    <option value="处女座">处女座</option>
+                    <option value="天秤座">天秤座</option>
+                    <option value="天蝎座">天蝎座</option>
+                    <option value="射手座">射手座</option>
+                    <option value="摩羯座">摩羯座</option>
+                    <option value="水瓶座">水瓶座</option>
+                    <option value="双鱼座">双鱼座</option>
+                </select>
+            </div>
+            <button id="calculate-btn">查看运势</button>
+            <div class="result">
+                <div class="fortune-details">
+                    <h4>详细运势分析</h4>
+                    <div id="fortune-analysis"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+.calculator {
+    padding: 20px;
+}
+.input-group {
+    margin-bottom: 15px;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#calculate-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#calculate-btn:hover {
+    background-color: #0056b3;
+}
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+</style>
+<script src="script.js"></script>
+</html>
