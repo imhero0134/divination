@@ -9,6 +9,8 @@ document.getElementById('calculate-btn').addEventListener('click', async functio
 
     if (!birthDate || !birthTime || !zodiacSign) {
         alert('请输入完整的生辰八字和星座信息');
+        btn.disabled = false;
+        btn.textContent = '查看运势';
         return;
     }
 
