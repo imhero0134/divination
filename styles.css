@@ -51,34 +51,39 @@ body {
     width: 100%;
     padding: 12px;
     border: 1px solid #e5e7eb;
-    border-radius: 8px;
+    border-radius: 12px;
     font-size: 13px;
     background-color: #f9fafb;
-    transition: border-color 0.2s;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .input-group input:focus,
 .input-group select:focus {
     outline: none;
     border-color: #6366f1;
-    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
 }
 
 #calculate-btn {
     width: 100%;
     padding: 14px;
-    background-color: #6366f1;
+    background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 12px;
     cursor: pointer;
     font-size: 14px;
-    font-weight: 500;
-    transition: background-color 0.2s;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
 }
 
 #calculate-btn:hover {
-    background-color: #4f46e5;
+    background: linear-gradient(135deg, #4f46e5 0%, #4338ca 100%);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
 }
 
 .result {
@@ -170,4 +175,1845 @@ body {
 
 #send-btn:hover {
     background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 4px 6px rgba(99, 102, 241, 0.1);
+    transform: translateY(-1px);
+}
+
+#send-btn:hover {
+    background-color: #007bff;
+}
+
+#birth-date,
+#birth-time,
+#zodiac-sign {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    color: #333;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 200px;
+}
+
+#birth-date:hover,
+#birth-time:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.1);
+}
+
+#birth-date:focus,
+#birth-time:focus {
+    outline: none;
 }
