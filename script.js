@@ -17,7 +17,7 @@ const fortunes = await getAIFortune(birthDate, birthTime, zodiacSign) || calcula
     if (fortunes && fortunes.choices && fortunes.choices[0] && fortunes.choices[0].message) {
         const analysis = fortunes.choices[0].message.content;
         
-        document.getElementById('fortune-analysis').innerHTML = analysis.replace(/\n/g, '<br>');
+        document.getElementById('fortune-analysis').innerHTML = analysis.replace(/###/g, '').replace(/\n/g, '<br>');
         btn.disabled = false;
         btn.textContent = '查看运势';
     } else {
@@ -110,7 +110,7 @@ async function getAIFortune(birthDate, birthTime, zodiacSign) {
         'Authorization': `Bearer ${API_KEY}`
       },
       body: JSON.stringify({
-        model: 'Qwen/QwQ-32B',
+        model: 'deepseek-ai/deepseek-vl2',
         messages: [
           {
             role: 'user',
